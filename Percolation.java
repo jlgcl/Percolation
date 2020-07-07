@@ -55,8 +55,8 @@ public class Percolation {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 grid[i][j] = false; // block all grids
-                parent[i] = i;
             }
+            parent[i] = i;
         }
     }
 
